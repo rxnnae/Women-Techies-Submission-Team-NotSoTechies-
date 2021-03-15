@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer page after customer form</title>
+    <style>
+        html{
+            font-size:16px;
+        }
+        .map-responsive{
+
+        overflow:hidden;
+        /* padding-bottom:56.25%; */
+        position:relative;
+        height:0;
+        border:2px solid red;
+        padding-bottom:20%;
+        padding-left:50%;
+        
+        }
+
+        .map-responsive iframe{
+        left:0;
+        top:0;
+        height:100%;
+        width:100%;
+        position:absolute;
+        
+        }
+            textarea {
+        max-width: 90%;
+        /* margin: 15px; */
+        /* padding: 4px 10px; */
+        border: 0px solid transparent;
+        border-bottom: 2px solid white;
+        color: #d9dcdd;
+        background: transparent;
+        width: 90%;
+        /* line-height: 1.6; */
+        font-size: 1.05rem;
+    }
+        li p{
+            display:inline-block;
+        }
+        ol {
+            list-style: none;
+        }
+    
+    #small-space{
+        padding-right: 50px;
+    }
+        </style>
+</head>
+<body>
+    <div>
+        <form>
+            <h1>Customer booking page:</h1>
+            <p><label for="name">Enter your location:</label></p>
+            <textarea id="input-text" name="input-text" rows="2" cols=40 placeholder="Mumbai Central,Maharashtra"></textarea>
+        </form>
+    </div>
+    <div class="map-responsive">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3203.1712293646756!2d72.81844410151153!3d18.971121540057457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1615730699006!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
+    </div>
+    <!--
+    <div>
+        <form>
+            <p><label for="name">Drivers available:</label></p>
+            <p>Select an option:</p>
+            <table >
+                <tr>
+                    <td id="small-space"><input type="radio" name="driver1"value="driver1" checked></td>
+                    <td><img src="images/woman-driver-license-eps-illustration_gg101399062.png"alt="women-driver"></td>
+                    <td>Miss. Sarah Watson</td>
+                    <td><img src="images/woman-driver-license-eps-illustration_gg101399062.png"alt="women-driver"></td>
+                    <td>Miss. Sarah Watson</td>
+                </tr>
+                <tr>
+                    <td><img src="images/woman-driver-license-eps-illustration_gg101399062.png"alt="women-driver"></td>
+                    <td>Miss. Sarah Watson</td>
+                    <td><img src="images/woman-driver-license-eps-illustration_gg101399062.png"alt="women-driver"></td>
+                    <td>Miss. Sarah Watson</td>
+                </tr>
+            </table>
+        </form>
+    </div>
+     -->
+</body>
+</html>
