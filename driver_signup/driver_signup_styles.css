@@ -1,0 +1,27 @@
+#e50_46 { 
+	overflow:hidden;
+	background-color:rgba(255, 255, 255, 1);
+	width:1440px;
+	height:1024px;
+	position:absolute;
+}#e50_78 { 
+	width:648px;
+	height:519px;
+	position:absolute;
+	left:720px;
+	top:264px;
+	background-image:url(images/eimage_2.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}#e56_0 { 
+	color:rgba(0, 0, 0, 1);
+	width:426px;
+	height:82px;
+	position:absolute;
+	left:192px;
+	top:109px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:36px;
+	letter-spacing:0;
+}

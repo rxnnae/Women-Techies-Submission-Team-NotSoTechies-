@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <style>
         html {
-          background: url("driver.svg") no-repeat center center fixed;
+          background: url("finall.svg") no-repeat center center fixed;
           -webkit-background-size: cover;
           -moz-background-size: cover;
           -o-background-size: cover;
@@ -45,8 +45,8 @@
       margin: auto;
      
       position:absolute;
-          left:40px;
-          top:150px;
+          right:170px;
+          top:220px;
       }
       form {
       margin: 0 30px;
@@ -138,16 +138,25 @@
       background: #26a9e0;
       }
     </style>
+<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+                        
+                        <link rel="stylesheet" href="customer_signupstyles.css">
   </head>
   <body>
     <div class="main-block">
       
       <form action="/">
-          <input type="text" name="username" id="name" placeholder="Username" required/>
+          <input type="text" name="new_username" id="name" placeholder="Enter new username" required/>
           <label id="icon" for="name"><i class="fas fa-user"></i></label>
+       
+        <input type="text" name="email" id="name" placeholder="Email" required/>
+        <label id="icon" for="name"><i class="fas fa-user"></i></label>
+        <input type="text" name="name" id="name" placeholder="Name" required/>
+        <label id="icon" for="name"><i class="fas fa-unlock-alt"></i></label>
         <input type="password" name="password" id="name" placeholder="Password" required/>
         <label id="icon" for="name"><i class="fas fa-unlock-alt"></i></label>
-       
+        <input type="password" name="password2" id="name" placeholder="Re-enter Password" required/>
+        <label id="icon" for="name"><i class="fas fa-unlock-alt"></i></label>
         
         
         <div class="btn-block">
