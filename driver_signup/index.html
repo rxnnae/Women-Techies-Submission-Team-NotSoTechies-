@@ -2,9 +2,21 @@
           <head>
             <meta charset="utf-8">
           
-            <title>Html Generated</title>
-            <meta name="description" content="Figma htmlGenerator">
-            <meta name="author" content="htmlGenerator">
+            <title>Driver signup</title>
+            
+            <script LANGUAGE="JavaScript" type="text/javascript">
+            function display() {
+              DispWin = window.open('','NewWin', 'toolbar=no,status=no,width=300,height=200')
+              message = "<ul><li><b>NAME: </b>" + document.form1.name.value;
+              message += "<li><b>ADDRESS: </b>" + document.form1.address.value;
+              message += "<li><b>CITY: </b>" + document.form1.city.value;
+              message += "<li><b>STATE: </b>" + document.form1.state.value;
+              message += "<li><b>Phone: </b>" + document.form1.ph_no.value;
+              message += "<li><b>DOB: </b>" + document.form1.dob.value + "</ul>";
+              DispWin.document.write(message);
+            }
+            </script>
+            
             <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
             <link rel="stylesheet" href="styles.css">
@@ -147,33 +159,33 @@
           </head>
           
           <body>
+              
             <div id="e50_46"><div  id="e50_78"></div><span  id="e56_0">Sign up to give a ride
 </span></div>
             <div class="main-block">
               
-              <form action="/">
+              <form name="form1">
                   <input type="text" name="name" id="name" placeholder="Full name" required/>
                   
-                <input type="text" name="name" id="address" placeholder="Address" required/>
+                <input type="text" name="address" id="name" placeholder="Address" required/>
               
-                <input type="text" name="name" id="city" placeholder="City" required/>
+                <input type="text" name="city" id="name" placeholder="City" required/>
                 
-                <input type="text" name="name" id="state" placeholder="State" required/>
+                <input type="text" name="state" id="name" placeholder="State" required/>
                 
-                <input type="text" name="name" id="phone" placeholder="phone number" required/>
+                <input type="text" name="ph_no" id="name" placeholder="phone number" required/>
                 
-                <input type="text" name="name" id="dob" placeholder="DOB (DD/MM/YYYY)" required/>
+                <input type="text" name="dob" id="name" placeholder="DOB (DD/MM/YYYY)" required/>
                 
-                <input type="password" name="name" id="name" placeholder="Password" required/>
-                <input type="password" name="name" id="name" placeholder="Re-enter Password" required/>
-                
-                
-                
+                <input type="password" name="password" id="name" placeholder="Password" required/>
+                <input type="password" name="password2" id="name" placeholder="Re-enter Password" required/>
+                <p><input TYPE="BUTTON" VALUE="Display" onClick="display();"></p>
+                    </form>
                 <div class="btn-block">
                   
                   <button type="submit" href="/">Submit</button>
                 </div>
-              </form>
+              
             </div>
           </body>
           </html>
